@@ -1,0 +1,36 @@
+header {
+  background-color: #ae7a48;
+  color: #f8f6ed;
+}
+
+main {
+  background-color: #f8f6ed;
+  color: #4f3721;
+}
+
+.contenedor {
+  background-color: red;
+}
+
+.contenedor-1 {
+  color: yellow;
+}
+
+#patito {
+  background-color: blue;
+}
+
+div,
+p {
+  background-color: #ae7a48;
+  color: #f8f6ed;
+}
+
+.background-image {
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+button {
+  width: 62px;
+}

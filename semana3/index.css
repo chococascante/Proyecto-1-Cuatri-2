@@ -1,0 +1,150 @@
+/* CSS reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  text-transform: uppercase;
+  margin-right: 16px;
+}
+
+header {
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  width: 100vw;
+}
+
+.navegacion-derecha {
+  display: flex;
+  gap: 30px;
+}
+
+.fondo-compu {
+  /* Atributos del fondo */
+  /* /assets/header.jpg */
+  background: url("./assets/header.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* Para centrar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 65px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.parrafo-titulo {
+  color: rgb(255, 255, 255, 0.7);
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.division {
+  border-width: 3px;
+  width: 50px;
+  border-style: solid;
+  margin: 30px 0;
+}
+
+.borde-anarajando {
+  border-color: #f05f40;
+}
+
+.borde-blanco {
+  border-color: #fff;
+}
+
+.boton {
+  padding: 15px 30px;
+  border-radius: 300px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.boton:hover {
+  background-color: #ee4b28;
+  border-color: #ed431f;
+}
+
+/* EMPIEZA SECCIÓN 2 */
+
+.fondo-anaranjado {
+  background-color: #f05f40;
+}
+
+.fondo-blanco {
+  background-color: #fff;
+}
+
+.letra-blanca {
+  color: #fff;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.contenedor-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 825px;
+  text-align: center;
+}
