@@ -100,14 +100,6 @@ header {
   margin: 30px 0;
 }
 
-.borde-anarajando {
-  border-color: #f05f40;
-}
-
-.borde-blanco {
-  border-color: #fff;
-}
-
 .boton {
   padding: 15px 30px;
   border-radius: 300px;
@@ -121,6 +113,14 @@ header {
 }
 
 /* EMPIEZA SECCIÓN 2 */
+
+.borde-anarajando {
+  border-color: #f05f40;
+}
+
+.borde-blanco {
+  border-color: #fff;
+}
 
 .fondo-anaranjado {
   background-color: #f05f40;
